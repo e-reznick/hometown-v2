@@ -1,19 +1,16 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Visit London
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This is a website project created for CodeYourFuture. The site provides an overview of some of the top activities and historical insights related to London, with a special focus on recommendations from Elias Nick.
+Features
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+    Hero Section: An introduction to London and its cultural significance.
+    Activities Section: Showcases top activities to do in London, including descriptions and images.
+    Recommended Places: A selection of additional recommended sites, also with descriptions and images.
+    Guide Section: A personal guide section introducing Elias Nick, providing insights into exploring London.
+    Quotes Section: Features famous quotes about London.
+    History Section: Brief overview of London's rich history.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Technologies Used
 
-Happy Coding!
+    HTML
+    CSS
