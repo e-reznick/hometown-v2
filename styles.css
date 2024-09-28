@@ -1,0 +1,146 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+#header {
+background: url('images/london-background.jpg') no-repeat center center/cover;
+color: white;
+text-align: center;
+padding: 100px 20px;
+}
+
+#header h1 {
+font-size: 3rem;
+}
+
+#header h2 {
+font-size: 1.5rem;
+margin-top: 10px;
+}
+
+#activity {
+padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.spots {
+    flex-basis: 30%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.spots img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.describe {
+    margin-top: 10px;
+}
+
+/* Carousel Section */
+#carousel {
+text-align: center;
+margin: 20px 0;
+}
+
+#carouselImage img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Guide Section (Modeled after your example) */
+#container-2 {
+display: flex;
+align-items: center;
+padding: 40px;
+background-color: #f4f4f4;
+}
+
+.self-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.wrapper {
+    max-width: 600px;
+}
+
+#container-2 h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+#container-2 p {
+font-size: 1.1rem;
+margin-bottom: 10px;
+}
+
+#container-2 h4 {
+font-size: 1.5rem;
+font-weight: bold;
+margin-top: 10px;
+}
+
+/* Quotes Section */
+#quotes-section {
+padding: 30px;
+background-color: #f0f0f0;
+text-align: center;
+}
+
+.quote-author {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* History Section */
+#history-section {
+padding: 30px;
+background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.small-round {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 5px;
+    font-weight: bold;
+}
